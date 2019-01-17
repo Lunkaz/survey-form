@@ -1,0 +1,15 @@
+/*-----COLORS-----
+background: #A5DDDA;
+------------------*/
+
+/*----GENERAL----*/
+
+html {
+  box-sizing: border-box;
+  background: #A5DDDA;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
