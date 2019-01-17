@@ -34,10 +34,11 @@ body {
 }
 
 form {
-	max-width: 940px;
-	margin: 0 auto;
+	max-width: 900px;
+	margin: 27px auto;
 	background: #FFFFFF;
 	overflow: auto;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
 footer {
@@ -48,12 +49,57 @@ footer {
 
 h4 {
 	font-family: 'Oswald', sans-serif;
+	font-size: 1.25rem;
 }
 
 header h1 {
 	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+}
+
+header p {
+	font-size: 1.25rem;
 }
 
 footer h1 {
 	font-family: 'Abril Fatface', cursive;
+	font-size: 4rem;
+	margin: 0;
+}
+footer h4 {
+	margin: 0;
+}
+
+footer p {
+	font-size: 1.25rem;
+}
+
+footer h3 {
+	font-size: 1.25rem;
+}
+
+
+/*-----BACKGROUND IMAGES----*/
+
+#header {
+	background: url("img/banner.jpg") right;
+	background-size: cover; 
+}
+
+#header hr {
+	border: 2px solid #DC023F;
+}
+
+#footer {
+	background: url("img/sellfie.jpg") center;
+	background-size: cover;
+	color: white;
+}
+
+/*-----FORM-----*/
+
+form hr {
+	border: 1px solid #A5DDDA;
+	margin: 40px 0;
 }
