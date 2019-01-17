@@ -1,15 +1,59 @@
 /*-----COLORS-----
 background: #A5DDDA;
+
+----TYPO----
+font-family: 'Oswald', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Abril Fatface', cursive;
 ------------------*/
+
+/*-----TYPO-----*/
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat|Oswald');
 
 /*----GENERAL----*/
 
 html {
-  box-sizing: border-box;
-  background: #A5DDDA;
+	box-sizing: border-box;
+	background: #A5DDDA;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content-wrap {
+    max-width: 624px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+form {
+	max-width: 940px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	overflow: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+/*-----TYPO----*/
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+}
+
+header h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+footer h1 {
+	font-family: 'Abril Fatface', cursive;
+}
