@@ -10,6 +10,7 @@
 	<title>Nudes | Social study</title>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
@@ -27,9 +28,9 @@
 	<main>	
 
 		
-		<form>
-			<div class="content-wrap">
-			<section id="personal-info">
+		<form id="survey-form">
+			<div  id="white-box">
+			<section id="personal-info" class="content-wrap">
 
 				<div>
 					<label id="name-label" for="name" class="closer"><h4>What is your name?</h4></label>
@@ -37,13 +38,13 @@
 	          	</div>
 
 	          	<div>
-	        		<label id="number-label" for="age" class="closer"><h4>Your Age</h4></label>
-	         		<input type="number" id="age" name="age" min="18" max="130" placeholder="Only +18" required="">
+	        		<label id="number-label" for="number" class="closer"><h4>Your Age</h4></label>
+	         		<input type="number" id="number" name="number" min="18" max="130" placeholder="Only +18" required="">
          		</div>
 
 				<div>
-					<label id="country-label" for="country" class="closer"><h4>Your Country</h4></label>
-					<select name="country" id="country">
+					<label  for="country" class="closer"><h4>Your Country</h4></label>
+					<select name="country" id="dropdown">
 						<option value="">Select a country</option>
 						<option value="Afganistan">Afghanistan</option>
 						<option value="Albania">Albania</option>
@@ -304,8 +305,8 @@
 			    	</div>
 				
 			</section><!--END personal-info -->
-			<hr>
-			<section>
+			
+			<section class="content-wrap">
 
 	        	<div>
 	        		<h4>Have you ever taken a selfie naked?</h4>
@@ -349,10 +350,7 @@
 			</section>
 			</div>
 
-		</form>
-		
 
-		</main>
 
 			<div id="footer">
 			<footer class="content-wrap">
@@ -360,15 +358,19 @@
 				<h1>Sellfie</h1>
 				<p>Share your selfies with the world, meet new people and earn money</p>
 				<hr>
-				<h3>Start enjoing</h3>
+				
 
-          		<div id="joinin">
+          		<div><label id="email-label"><h3>Start enjoing</h3></label>
         			<input id="email" type="email" name="email" placeholder="E-mail" required>
         			<span><button>Join in</button></span> 
         		</div>
 
 			</footer>
 			</div>
+			</form>
+		
+
+		</main>
 	
 	</div>
 
@@ -376,6 +378,6 @@
 
 
 
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </html>

@@ -34,7 +34,7 @@ body {
     overflow: auto;
 }
 
-form {
+#white-box {
 	max-width: 900px;
 	margin: 27px auto;
 	background: #FFFFFF;
@@ -107,7 +107,7 @@ footer h3 {
 
 form hr {
 	border: 1px solid #fff;
-	margin: 40px 0;
+	margin: 20px 0;
 }
 
 form textarea {
@@ -124,7 +124,7 @@ form textarea:focus {
 	background-color: #fff;
 }
 
-form select, #name, #age, #how-much {
+form select, #name, #number, #how-much {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	-ms-appearance: none;
