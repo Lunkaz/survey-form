@@ -29,7 +29,7 @@ body {
 .content-wrap {
     max-width: 624px;
     margin: 0 auto;
-    padding: 60px 50px;
+    padding: 30px 50px;
     overflow: auto;
 }
 
@@ -50,6 +50,8 @@ footer {
 h4 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.25rem;
+	margin-top: 30px;
+	margin-bottom: 18px;
 }
 
 header h1 {
@@ -100,6 +102,54 @@ footer h3 {
 /*-----FORM-----*/
 
 form hr {
-	border: 1px solid #A5DDDA;
+	border: 1px solid #fff;
 	margin: 40px 0;
 }
+
+form textarea {
+	padding: 15px;
+	border: 1px solid rgba(165, 221, 218, .5);
+	box-shadow: 0px 0px 15px rgba(165, 221, 218, .6);
+	background-color: rgba(165, 221, 218, .4);
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+}
+
+form textarea:focus {
+	background-color: #fff;
+}
+
+form select, #name, #age, #how-much {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+	width: 100%;
+	border: none;
+	border-bottom:  2px solid #0C2043;
+	font-size: 1rem;
+}
+
+form select::-ms-expand {
+	display: none;
+}
+ .closer h4 {
+	margin-bottom: 10px;
+}
+/*
+form #name, #age, #how-much {
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #0C2043;
+	font-size: 1rem;
+	color: black;
+}
+*/
