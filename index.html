@@ -295,26 +295,27 @@
 						</select>
 				</div>
 
-				<div>
-	         		<h4>Gender</h4>
-			           <input id="Femenine" name="gender" value="1" type="radio" class=""><label for="Femenine">Femenine</label>
-			           <input id="Masculine" name="gender" value="2" type="radio" class=""><label for="Masculine">Masculine</label>
-			           <input id="Others" name="gender" value="3" type="radio" class=""><label for="Others">Others</label>
-			    </div>
+				
+	         	<h4>Gender</h4>
+	         		<div id="question">
+			           <div class="option"><input id="Femenine" name="gender" value="1" type="radio" class=""><label for="Femenine">Femenine</label></div>
+			           <div class="option"><input id="Masculine" name="gender" value="2" type="radio" class=""><label for="Masculine">Masculine</label></div>
+			           <div class="option"><input id="Others" name="gender" value="3" type="radio" class=""><label for="Others">Others</label></div>
+			    	</div>
 				
 			</section><!--END personal-info -->
 			<hr>
 			<section>
 
-				<div id="question-one">
-        			<h4>Have you ever taken a selfie naked?</h4>
-				        <input id="YesNaked" name="naked" value="1" type="radio" class=""><label for="YesNaked">Yes</label>
-				        <input id="NoNaked" name="naked" value="2" type="radio" class=""><label for="NoNaked">No</label>
+	        	<div>
+	        		<h4>Have you ever taken a selfie naked?</h4>
+				       <input id="YesNaked" name="naked" value="1" type="radio"><label for="YesNaked" class="space">Yes</label>
+				       <input id="NoNaked" name="naked" value="2" type="radio" class=""><label for="NoNaked">No</label>
 				</div><!--question-one-->
           
       			<div id="question-two">
         			<h4>Would you sell them?</h4>
-			           <input id="YesSell" name="sell" value="1" type="radio" class=""><label for="YesSell">Yes</label>
+			           <input id="YesSell" name="sell" value="1" type="radio" class=""><label for="YesSell" class="space">Yes</label>
 			           <input id="NoSell" name="sell" value="2" type="radio" class=""><label for="NoSell">No</label>
     			</div><!--question-two-->
         
@@ -325,16 +326,16 @@
           
 				<div id="question-for">
         			<h4>Have you sold them before?</h4>		        
-			           <input id="YesSold" name="sold" value="1" type="radio" class=""><label for="YesSold">Yes</label>
+			           <input id="YesSold" name="sold" value="1" type="radio" class=""><label for="YesSold" class="space">Yes</label>
 			           <input id="NoSold" name="sold" value="2" type="radio" class=""><label for="NoSold">No</label>       
     			</div><!--question-two-->
 
-  				<div id="question-five">
-        			<h4>What are you interest for?</h4>
-			           <input id="women" type="checkbox" name="women" value="1"><label for="women">Woman</label>
-			           <input id="men" type="checkbox" name="men" value="2"><label for="men">Men</label>
-			           <input id="other" type="checkbox" name="other" value="3"><label for="other">Other</label>
-        		</div>
+  				<h4>What are you interest for?</h4>
+        			<div id="question">
+			           <div class="option"><input id="women" type="checkbox" name="women" value="1"><label for="women">Woman</label></div>
+			           <div class="option"><input id="men" type="checkbox" name="men" value="2"><label for="men">Men</label></div>
+			           <div class="option"><input id="other" type="checkbox" name="other" value="3"><label for="other">Other</label></div>
+        			</div>
 
         		<div>
         			<label id="comments-label" for="comments"><h4>What do you think about this?</h4></label>

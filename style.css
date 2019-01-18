@@ -142,13 +142,29 @@ form select, #name, #age, #how-much {
 form select::-ms-expand {
 	display: none;
 }
- .closer h4 {
+.closer h4 {
 	margin-bottom: 10px;
 }
 
 form input:checked + label {
 	color: #DC023F;
 }
+
+form #question {
+	display: flex;
+	justify-content: space-between;
+}
+
+form .option {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.space {
+	padding-right: 70px;
+}
+
+
 
 form button {
 	background: #0C2043;
@@ -200,6 +216,8 @@ footer button {
 	width: 20%
 }
 
+
+
 /*-----MEDIA QUERIES----*/
 
 @media (min-height: 680px), screen and (orientation: portrait) { 
@@ -218,5 +236,6 @@ footer button {
 		width:35%;
 		margin-top: 10px;
 	}
+
 
 }
