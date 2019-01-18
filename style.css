@@ -24,6 +24,7 @@ html {
 body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
+	color: #0C2043;
 }
 
 .content-wrap {
@@ -68,6 +69,9 @@ footer h1 {
 	font-family: 'Abril Fatface', cursive;
 	font-size: 4rem;
 	margin: 0;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
 }
 footer h4 {
 	margin: 0;
@@ -94,7 +98,7 @@ footer h3 {
 }
 
 #footer {
-	background: url("img/sellfie.jpg") center;
+	background: url("img/sellfie.jpg") top;
 	background-size: cover;
 	color: white;
 }
@@ -141,15 +145,78 @@ form select::-ms-expand {
  .closer h4 {
 	margin-bottom: 10px;
 }
-/*
-form #name, #age, #how-much {
-	padding: 10px;
-	font-family: 'Montserrat', sans-serif;
-	background-color: #fff;
-	width: 100%;
-	border: none;
-	border-bottom: 2px solid #0C2043;
-	font-size: 1rem;
-	color: black;
+
+form input:checked + label {
+	color: #DC023F;
 }
-*/
+
+form button {
+	background: #0C2043;
+	padding: 10px;
+	border-style: none;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1rem;
+	width: 20%;
+	color: #fff;
+	margin: 25px 0 5px 0;
+}
+
+#submit-div {
+	text-align: center;
+}
+
+/*----Footer action----*/
+
+footer #email {
+	background: #C4C4C4;
+	padding: 10px 10px 10px 15px;
+	border-style: none;
+	border-radius: 10px 0 0 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 1rem;
+	width: 79%;
+
+}
+
+footer button {
+	background: #0C2043;
+	padding: 10px;
+	border-style: none;
+	border-radius: 0px 10px 10px 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 1rem;
+	color: #fff;
+	margin-left: -10px;
+	width: 20%
+}
+
+/*-----MEDIA QUERIES----*/
+
+@media (min-height: 680px), screen and (orientation: portrait) { 
+
+	form button {
+		width: 35%;
+	}
+
+	footer #email {
+		width: 100%;
+		border-radius: 10px;
+	}
+
+	footer button {
+		border-radius: 10px;
+		width:35%;
+		margin-top: 10px;
+	}
+
+}
