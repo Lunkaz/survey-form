@@ -220,7 +220,7 @@ footer button {
 
 /*-----MEDIA QUERIES----*/
 
-@media (min-height: 680px) { 
+@media (max-width: 600px) { 
 
 	form button {
 		width: 35%;
@@ -238,9 +238,8 @@ footer button {
 	}
 	
 	.content-wrap {
-    max-width: 624px;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 30px 15px;
     overflow: auto;
 }
 
