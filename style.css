@@ -220,7 +220,7 @@ footer button {
 
 /*-----MEDIA QUERIES----*/
 
-@media (min-height: 680px), screen and (orientation: portrait) { 
+@media (min-height: 680px) { 
 
 	form button {
 		width: 35%;
